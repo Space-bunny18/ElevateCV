@@ -126,7 +126,7 @@ ElevateCV
 ## Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ElevateCV.git
+git clone https://github.com/Space-bunny18/ElevateCV.git
 ```
 
 ```bash
