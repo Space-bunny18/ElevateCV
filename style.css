@@ -3920,3 +3920,32 @@ footer .container{
     margin-top:10px;
 
 }
+
+@media (max-width: 900px) and (min-width: 769px) {
+
+    .navbar{
+
+        padding: 12px 20px;
+
+        gap: 15px;
+
+    }
+
+    .nav-links{
+
+        gap: 20px;
+
+    }
+
+    .analyze-btn{
+
+        padding: 12px 22px;
+
+        font-size: 15px;
+
+        white-space: nowrap;
+
+        min-width: auto;
+    }
+
+}
