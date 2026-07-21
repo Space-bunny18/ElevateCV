@@ -1,0 +1,52 @@
+{
+    "languages": [
+        "Python",
+        "Java",
+        "JavaScript",
+        "C",
+        "C++",
+        "C#",
+        "TypeScript",
+        "Go",
+        "Rust",
+        "PHP"
+    ],
+
+    "frontend": [
+        "HTML",
+        "CSS",
+        "React",
+        "Angular",
+        "Vue",
+        "Bootstrap",
+        "Tailwind CSS",
+        "Next.js"
+    ],
+
+    "backend": [
+        "Node.js",
+        "Express",
+        "FastAPI",
+        "Django",
+        "Flask",
+        "Spring Boot"
+    ],
+
+    "database": [
+        "MySQL",
+        "MongoDB",
+        "PostgreSQL",
+        "SQLite",
+        "Firebase"
+    ],
+
+    "tools": [
+        "Git",
+        "GitHub",
+        "Docker",
+        "AWS",
+        "Linux",
+        "VS Code",
+        "Postman"
+    ]
+}

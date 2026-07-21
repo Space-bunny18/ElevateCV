@@ -1,0 +1,55 @@
+{
+    "Frontend Developer": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Tailwind CSS",
+        "Bootstrap",
+        "Git",
+        "GitHub"
+    ],
+
+    "Backend Developer": [
+        "Python",
+        "Node.js",
+        "Express",
+        "FastAPI",
+        "Django",
+        "MySQL",
+        "MongoDB",
+        "Git"
+    ],
+
+    "Full Stack Developer": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Git"
+    ],
+
+    "AI/ML Engineer": [
+        "Python",
+        "NumPy",
+        "Pandas",
+        "Scikit-learn",
+        "TensorFlow",
+        "PyTorch",
+        "OpenCV",
+        "Git"
+    ],
+
+    "Data Analyst": [
+        "Python",
+        "SQL",
+        "Excel",
+        "Power BI",
+        "Tableau",
+        "Pandas",
+        "NumPy"
+    ]
+}

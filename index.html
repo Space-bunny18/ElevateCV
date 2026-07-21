@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ElevateCV</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/branding/icon.png">
+        <link rel="shortcut icon" href="./assets/branding/icon.png">
+        <link rel="apple-touch-icon" href="./assets/branding/icon.png">
+        <link rel="manifest" href="manifest.webmanifest">
+        <meta property="og:title" content="ElevateCV - AI Resume Analyzer">
+
+        <meta property="og:description"
+            content="Analyze your resume, improve your ATS score, detect missing skills, and receive AI-powered recruiter feedback.">
+
+        <meta property="og:image"
+            content="./assets/branding/og-image.png">
+
+        <meta property="og:type"
+            content="website">
+
+        <title>ElevateCV | AI Resume Analyzer & ATS Resume Checker</title>
+
+        <meta name="description"
+        content="Analyze your resume with AI. Improve your ATS score, detect missing skills, receive recruiter feedback, and optimize your resume for your dream job.">
+
+        <meta name="keywords"
+        content="AI Resume Analyzer, ATS Checker, Resume Scanner, Resume Builder, Resume Review, ATS Score, Resume Optimization">
+
+        <meta name="author"
+        content="Harsh">
+
+        <meta name="robots"
+        content="index, follow">
+
+        <meta name="theme-color"
+        content="#0B1023">
+
+        <meta property="og:title"
+        content="ElevateCV | AI Resume Analyzer">
+
+        <meta property="og:description"
+        content="Upload your resume and receive ATS score, AI suggestions, recruiter feedback and resume improvements.">
+
+        <meta property="og:image"
+        content="./assets/branding/og-image.png">
+
+        <meta property="og:type"
+        content="website">
+
+        <meta property="og:site_name"
+        content="ElevateCV">
+
+        <meta name="twitter:card"
+        content="summary_large_image">
+
+        <meta name="twitter:title"
+        content="ElevateCV">
+
+        <meta name="twitter:description"
+        content="AI Resume Analyzer & ATS Checker">
+
+        <meta name="twitter:image"
+        content="./assets/branding/og-image.png">
+    </head>
+    <body>
+       <div class="cursor-glow"></div>
+        <!-- ================= BACKGROUND ================= -->
+        <div class="background">
+
+            <div class="blob blob1"></div>
+
+            <div class="blob blob2"></div>
+
+            <div class="blob blob3"></div>
+
+        </div>
+        <nav class="navbar">
+            <div class="logo">
+                <img
+                    src="./assets/branding/logo-navbar.png"
+                    class="navbar-logo"
+                    alt="ElevateCV">
+            </div>
+           <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+            <div class="nav-buttons">
+                <a href="#" class="start-btn" id="navAnalyzeBtn">Analyze Resume →</a>
+        
+            </div>
+        </nav>
+
+        <!-- ================= HERO SECTION ================= -->
+        <section id="home" class="hero hidden">
+            <div class="container">
+                <div class="hero-content">
+
+                    <p class="hero-tag">
+                        AI-Powered Resume Analysis
+                    </p>
+
+                    <h1>
+                       Transform Your Resume
+                        <span>Into Interview Opportunities</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        Analyze your resume, discover hidden ATS issues,
+                        find missing skills, and get AI-powered suggestions
+                        that help you stand out.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <button class="primary-btn" id="analyzeBtn">
+                            Analyze Resume →
+                        </button>
+
+                        <button class="secondary-btn">
+                            Learn More
+                        </button>
+
+                    </div>
+
+                    <div class="hero-stats">
+
+                        <div class="stat">
+                            <h2>10K+</h2>
+                            <p>Resumes Analyzed</p>
+                        </div>
+
+                        <div class="stat">
+                            <h2>95%</h2>
+                            <p>Accuracy</p>
+                        </div>
+
+                        <div class="stat">
+                            <h2>Free</h2>
+                            <p>Forever</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Dashboard Preview -->
+
+                <div class="hero-image">
+
+                    <div class="dashboard-card">
+                        <div class="scan-header">
+
+                            <div class="scan-dot"></div>
+
+                            <span>AI Resume Analysis</span>
+
+                        </div>
+
+                        <div class="analysis-screen">
+
+                            <div class="analysis-step active">
+                                Uploading Resume...
+                            </div>
+
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+
+                            <div class="analysis-step">
+                                Scanning Skills...
+                            </div>
+
+                            <div class="analysis-step">
+                                Checking ATS Compatibility...
+                            </div>
+
+                            <div class="analysis-step">
+                                Detecting Missing Skills...
+                            </div>
+
+                            <div class="analysis-step">
+                                Generating AI Suggestions...
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <!-- ================= TRUST SECTION ================= -->
+        <section class="trust hidden">
+            <div class="container">     
+                <p class="trust-title">
+                    Trusted by Students, Freshers & Job Seekers
+                </p>
+
+                <div class="trust-items">
+
+                    <div class="trust-box">
+                        ⚡ Fast Analysis
+                    </div>
+
+                    <div class="trust-box">
+                        🤖 AI Powered
+                    </div>
+
+                    <div class="trust-box">
+                        📄 ATS Friendly
+                    </div>
+
+                    <div class="trust-box">
+                        💯 Free Forever
+                    </div>
+
+                </div>
+            </div>
+        </section>
+            <!-- ================= FEATURES ================= -->
+            <section id="features" class="features hidden">
+                <div class="container">
+
+                <h2>Everything You Need to Build a Better Resume</h2>
+
+                <p>
+                    Powerful tools designed to help you create resumes that stand out.
+                </p>
+
+                <div class="feature-grid">
+
+                    <div class="feature-card">
+
+                        <div class="feature-icon">
+                            📄
+                        </div>
+
+                        <h3>Resume Upload</h3>
+
+                        <p>
+                            Upload your resume in PDF format and get instant analysis.
+                        </p>
+
+                    </div>
+
+                    <div class="feature-card">
+
+                        <div class="feature-icon">
+                            🤖
+                        </div>
+
+                        <h3>AI Analysis</h3>
+
+                        <p>
+                            Detect strengths, weaknesses and ATS issues automatically.
+                        </p>
+
+                    </div>
+
+                    <div class="feature-card">
+
+                        <div class="feature-icon">
+                            📊
+                        </div>
+
+                        <h3>Skill Detection</h3>
+
+                        <p>
+                            Discover missing technical and professional skills.
+                        </p>
+
+                    </div>
+
+                    <div class="feature-card">
+
+                        <div class="feature-icon">
+                            💡
+                        </div>
+
+                        <h3>Smart Suggestions</h3>
+
+                        <p>
+                            Receive actionable recommendations to improve your resume.
+                        </p>
+
+                    </div>
+
+                </div>
+                </div>
+            </section>
+        <!-- ================= HOW IT WORKS ================= -->
+        <section  id="how-it-works" class="how-it-works hidden">
+            <div class="container">
+
+            <h2>How It Works</h2>
+
+            <p>
+                Analyze your resume in four simple steps.
+            </p>
+
+            <div class="steps">
+
+                <div class="step">
+
+                    <span>1</span>
+
+                    <h3>Upload</h3>
+
+                    <p>Upload your resume in PDF format.</p>
+
+                </div>
+
+                <div class="step">
+
+                    <span>2</span>
+
+                    <h3>Analyze</h3>
+
+                    <p>Our AI scans your resume for ATS compatibility.</p>
+
+                </div>
+
+                <div class="step">
+
+                    <span>3</span>
+
+                    <h3>Review</h3>
+
+                    <p>See your ATS score, skills and improvement tips.</p>
+
+                </div>
+
+                <div class="step">
+
+                    <span>4</span>
+
+                    <h3>Download</h3>
+
+                    <p>Export your professional report as a PDF.</p>
+
+                </div>
+
+            </div>
+            </div>
+        </section>
+        <!-- ================= DASHBOARD SHOWCASE ================= -->
+        <section class="dashboard-showcase hidden">
+            <div class="container">
+            <div class="showcase-content">
+
+                <h2>Powerful Resume Insights</h2>
+
+                <p>
+                    Receive a complete analysis of your resume with ATS scoring,
+                    detected skills, missing keywords, and actionable suggestions.
+                </p>
+
+            </div>
+
+            <div class="showcase-card">
+
+                <div class="score-box">
+
+                    <h3>ATS Score</h3>
+
+                    <h1>91%</h1>
+
+                </div>
+
+                <div class="analysis-grid">
+
+                    <div class="analysis-card">
+
+                        <h3>Skills Found</h3>
+
+                        <p>15</p>
+
+                    </div>
+
+                    <div class="analysis-card">
+
+                        <h3>Missing Skills</h3>
+
+                        <p>5</p>
+
+                    </div>
+
+                    <div class="analysis-card">
+
+                        <h3>Grammar Issues</h3>
+
+                        <p>2</p>
+
+                    </div>
+
+                    <div class="analysis-card">
+
+                        <h3>Suggestions</h3>
+
+                        <p>8</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- ================= WHY CHOOSE US ================= -->
+        <section id="about" class="why-us hidden">
+            <div class="container">
+
+            <h2>Why Choose ElevateCV?</h2>
+
+            <div class="why-grid">
+
+                <div class="why-card">
+
+                    <h3>⚡ Fast</h3>
+
+                    <p>
+                        Analyze your resume in just a few seconds.
+                    </p>
+
+                </div>
+
+                <div class="why-card">
+
+                    <h3>🤖 Intelligent</h3>
+
+                    <p>
+                        AI-powered suggestions that help improve your resume.
+                    </p>
+
+                </div>
+
+                <div class="why-card">
+
+                    <h3>🔒 Secure</h3>
+
+                    <p>
+                        Your uploaded resumes are processed securely.
+                    </p>
+
+                </div>
+
+                <div class="why-card">
+
+                    <h3>💯 Free</h3>
+
+                    <p>
+                        No hidden charges. No sign up required.
+                    </p>
+
+                </div>
+
+            </div>
+            </div>
+        </section>
+        <!-- ================= FAQ ================= -->
+        <section class="faq hidden">
+
+            <div class="container">
+
+                <h2>Frequently Asked Questions</h2>
+
+                <div class="faq-container">
+
+                    <div class="faq-item">
+
+                        <div class="faq-question">
+
+                            <h3>Is ElevateCV free?</h3>
+
+                            <span>+</span>
+
+                        </div>
+
+                        <div class="faq-answer">
+
+                            <p>
+                                Yes. ElevateCV is completely free to use.
+                                Upload your resume and receive AI-powered insights instantly.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="faq-item">
+
+                        <div class="faq-question">
+
+                            <h3>Which file formats are supported?</h3>
+
+                            <span>+</span>
+
+                        </div>
+
+                        <div class="faq-answer">
+
+                            <p>
+                                Currently we support PDF resumes.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="faq-item">
+
+                        <div class="faq-question">
+
+                            <h3>Will my resume be stored?</h3>
+
+                            <span>+</span>
+
+                        </div>
+
+                        <div class="faq-answer">
+
+                            <p>
+                                No. Your resume is processed securely and is not permanently stored.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- ================= FOOTER ================= -->
+       <footer>
+
+    <div class="container">
+
+        <div class="footer-logo">
+
+            <img
+                src="./assets/branding/logo-navbar.png"
+                alt="ElevateCV"
+                class="footer-logo-img"
+            >
+
+            <p>
+
+                Analyze resumes, improve ATS scores, discover missing skills,
+                and receive AI-powered recruiter insights.
+
+            </p>
+
+        </div>
+
+        <div class="footer-links">
+
+            <div class="footer-column">
+
+                <h3>Product</h3>
+
+                <a href="index.html">Home</a>
+
+                <a href="#features">Features</a>
+
+                <a href="#faq">FAQ</a>
+
+            </div>
+
+            <div class="footer-column">
+
+                <h3>Company</h3>
+
+                <a href="about.html">About</a>
+
+                <a href="contact.html">Contact</a>
+
+            </div>
+
+            <div class="footer-column">
+
+                <h3>Legal</h3>
+
+                <a href="privacy.html">Privacy Policy</a>
+
+                <a href="terms.html">Terms & Conditions</a>
+
+            </div>
+
+        </div>
+
+        <div class="copyright">
+
+            © 2026 ElevateCV. All Rights Reserved.
+
+        </div>
+
+    </div>
+
+</footer>
+        <!-- ================= UPLOAD MODAL ================= -->
+        <div class="upload-modal" id="uploadModal">
+
+            <div class="upload-card">
+
+                <button class="close-modal" id="closeModal">
+                    ✕
+                </button>
+
+                <h2>Upload Your Resume</h2>
+
+                <p class="upload-subtitle">
+                    Upload your resume and receive an AI-powered ATS analysis.
+                </p>
+
+                <div class="upload-area" id="uploadArea">
+
+                    <div class="upload-icon">
+
+                        <img
+                            src="./assets/branding/icon.png"
+                            alt="ElevateCV"
+                        >
+
+                    </div>
+                    <h3>Drag & Drop Resume</h3>
+
+                    <p>or click below to browse</p>
+
+                    <input
+                        type="file"
+                        id="resumeInput"
+                        accept=".pdf"
+                        hidden
+                    >
+
+                    <button class="browse-btn" id="browseBtn">
+                        Browse PDF
+                    </button>
+                    <small>
+                        PDF only • Maximum 5 MB
+                    </small>
+
+                </div>
+                <div class="role-select">
+                    <label for="jobRole">Target Job Role</label>
+
+                    <select id="jobRole">
+
+                        <option value="Frontend Developer">Frontend Developer</option>
+                        <option value="Backend Developer">Backend Developer</option>
+                        <option value="Full Stack Developer">Full Stack Developer</option>
+                        <option value="AI/ML Engineer">AI/ML Engineer</option>
+                        <option value="Data Analyst">Data Analyst</option>
+
+                    </select>
+
+                </div>
+              <button
+                    type="button"
+                    class="analyze-btn"
+                    id="analyzeResume"
+                >
+                    Analyze Resume →
+                </button>
+
+            </div>
+
+        </div>
+        
+        <div id="toast"></div>
+        <script src="script.js"></script>
+    </body>
+</html>

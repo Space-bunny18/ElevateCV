@@ -1,0 +1,22 @@
+{
+  "name": "ElevateCV",
+  "short_name": "ElevateCV",
+  "description": "AI Resume Analyzer & ATS Resume Checker",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B1023",
+  "theme_color": "#6C63FF",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "assets/branding/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/branding/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
