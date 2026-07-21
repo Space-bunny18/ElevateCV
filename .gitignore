@@ -1,5 +1,6 @@
-# Temporary uploaded resumes
-uploads/
+# Uploads
+uploads/*
+!uploads/.gitkeep
 
 # macOS
 .DS_Store
