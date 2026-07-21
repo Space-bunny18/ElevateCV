@@ -1,0 +1,14 @@
+# Temporary uploaded resumes
+uploads/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
