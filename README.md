@@ -16,9 +16,9 @@ AI-powered resume analysis platform that evaluates resumes using ATS scoring, de
 
 ## 🌐 Live Demo
 
-🔗 **Website:** https://YOUR-VERCEL-LINK.vercel.app
+🔗 **Website:** https://elevate-cv-six.vercel.app/
 
-🔗 **Backend API:** https://YOUR-RENDER-LINK.onrender.com
+🔗 **Backend API:** https://elevatecv-nc54.onrender.com
 
 ---
 
