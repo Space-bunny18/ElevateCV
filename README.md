@@ -177,25 +177,29 @@ using Live Server or any local web server.
 
 ## 🏠 Homepage
 
-(Add Screenshot)
+<img width="1344" height="634" alt="image" src="https://github.com/user-attachments/assets/ca8b9209-ca3c-4edf-b4e4-31eac9f9aafe" />
+
 
 ---
 
 ## 📤 Upload Resume
 
-(Add Screenshot)
+<img width="726" height="625" alt="image" src="https://github.com/user-attachments/assets/d3009c5e-bbd6-4e47-9c52-3c8115a35729" />
+
 
 ---
 
 ## 📊 Resume Analysis
 
-(Add Screenshot)
+<img width="1332" height="612" alt="image" src="https://github.com/user-attachments/assets/71772cbd-f4dc-4dfd-b5ae-70ec6168c71c" />
+
 
 ---
 
 ## 📄 PDF Report
 
-(Add Screenshot)
+<img width="1338" height="571" alt="image" src="https://github.com/user-attachments/assets/b44d9ca4-9135-43d1-b2e7-1e4cff8573b6" />
+
 
 ---
 
@@ -262,4 +266,5 @@ If you found this project useful, please consider giving it a ⭐ on GitHub!
 It really helps and motivates future development.
 
 ---
-
+
+
