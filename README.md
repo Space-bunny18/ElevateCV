@@ -247,7 +247,7 @@ This project is licensed under the MIT License.
 
 # 👨‍💻 Developer
 
-**Harsh Chahar**
+**Harsh**
 
 🎓 B.Tech CSE (AI & ML)
 
@@ -262,7 +262,4 @@ If you found this project useful, please consider giving it a ⭐ on GitHub!
 It really helps and motivates future development.
 
 ---
-
-<p align="center">
-Made with ❤️ by Harsh Chahar
-</p>
+
